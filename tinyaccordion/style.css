@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+code {
+	font-family: "Courier New", Courier
+}
+
+#options {
+	width: 755px;
+	text-align: right;
+	color: #666666;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+}
+
+#options a {
+	text-decoration: none;
+	color: #666666
+}
+
+#options a:hover {
+	color: #033
+}
+
+#acc {
+	width: 755px;
+	list-style: none;
+	color: #033;
+	margin-top: 0;
+	margin-right: 0px;
+	margin-bottom: 40px;
+	margin-left: 0px;
+}
+
+#acc h3 {
+	width: 755px;
+	border: 1px solid #9ac1c9;
+	font-size: medium;
+	font-weight: bold;
+	margin-top: 5px;
+	cursor: pointer;
+	background: url(images/header.gif);
+	padding-top: 6px;
+	padding-right: 0px;
+	padding-bottom: 8px;
+	padding-left: 6px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+#acc h3:hover {
+	background: url(images/header_over.gif)
+}
+
+#acc .acc-section {
+	overflow: hidden;
+	background: #fff
+}
+
+#acc .acc-content {
+	width: auto;
+	padding: 15px;
+	border: 1px solid #9ac1c9;
+	border-top: none;
+	background: #fff;
+	margin: 0px;
+}
+
+#nested {
+	width: auto;
+	list-style: none;
+	color: #033;
+	margin-bottom: 15px
+}
+
+#nested h3 {
+	width: auto;
+	border: 1px solid #9ac1c9;
+	font-weight: bold;
+	margin-top: 5px;
+	cursor: pointer;
+	background: url(images/header.gif);
+	padding-top: 6px;
+	padding-right: 6px;
+	padding-bottom: 8px;
+	padding-left: 6px;
+}
+
+#nested h3:hover {
+	background: url(images/header_over.gif)
+}
+
+#nested .acc-section {
+	overflow: hidden;
+	background: #fff
+}
+
+#nested .acc-content {
+	width: auto;
+	padding: 15px;
+	border: 1px solid #9ac1c9;
+	border-top: none;
+	background: #fff
+}
+
+#nested .acc-selected {
+	background: url(images/header_over.gif)
+}
